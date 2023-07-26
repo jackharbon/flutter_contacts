@@ -44,8 +44,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    DatabaseReference dbRef =
-        FirebaseDatabase.instance.ref().child('contacts');
+    DatabaseReference dbRef = FirebaseDatabase.instance.ref().child('contacts');
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.blue,
